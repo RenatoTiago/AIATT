@@ -16,18 +16,20 @@ class Supermercado:
 
     def CadastrarProduto():
 
-        produto = input("Qual é o nome do Produto?")
+        while True:
 
-        preco = float(input("Qual o preço do Produto?"))
+            produto = input("Qual é o nome do Produto?")
 
-        marca = input("Qual é a marca do produto?")
+            preco = float(input("Qual o preço do Produto?"))
 
-        temp = Supermercado(produto, preco, marca)
+            marca = input("Qual é a marca do produto?")
 
-        produtos.append(temp)
+            temp = Supermercado(produto, preco, marca)
 
-        if input("Casdastrar mais Produtos? S/N") == "S":
-            break
+            # produtos.append(temp)
+
+            if input("Casdastrar mais Produtos? S/N") == "S":
+                break
 
     # falta terminar esse#
 
