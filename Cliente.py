@@ -2,7 +2,7 @@ import sys
 
 
 class Cliente:
-    def _init_(self, nome, cpf, endereco):
+    def __init__(self, nome, cpf, endereco):
         self.nome = nome
         self.cpf = cpf
         self.endereco = endereco

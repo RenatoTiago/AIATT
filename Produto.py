@@ -2,7 +2,7 @@ import sys
 
 
 class Produto:
-    def _init_(self, nome, tipo, marca, preco):
+    def __init__(self, nome, tipo, marca, preco):
         self.nome = nome
         self.tipo = tipo
         self.marca = marca
